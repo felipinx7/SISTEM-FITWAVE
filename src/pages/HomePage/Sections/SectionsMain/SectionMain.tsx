@@ -4,6 +4,7 @@ import ImagemFundoSectionMain from "../../../../assets/img/img-fundo-main.png";
 import ImagemFundoCelularResponsivo from "../../../../assets/img/fundo-main-celular.png";
 
 export const SectionMain: React.FC = () => {
+
   return (
     <S.SectionMain>
       <S.ImagemFundoCelular src={ImagemFundoCelularResponsivo} />
