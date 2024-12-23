@@ -27,7 +27,7 @@ export const SectionPrecoAcademiaEacessorios: React.FC = () => {
   }, []);
 
   return (
-    <S.SectionMain>
+    <S.SectionMain id="preco">
       <S.TextoMain className="reveal-left" data-text="INSTALAÇÕES">
         CONHEÇA AS NOSSAS <br />
         <S.SpanInstalacao>INSTALAÇÕES</S.SpanInstalacao>

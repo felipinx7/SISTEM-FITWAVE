@@ -15,6 +15,10 @@ export const SectionCadastro: React.FC = () => {
 
     value = value.replace(/\D/g, "");
 
+    if (value.length > 11) {
+      value = value.slice(0, 11);
+    }
+
     if (value.length <= 2) {
       value = value.replace(/(\d{2})(\d{0,0})/, "($1)$2");
     } else if (value.length <= 6) {
@@ -42,7 +46,7 @@ export const SectionCadastro: React.FC = () => {
   }, []);
 
   return (
-    <S.SectionMain>
+    <S.SectionMain id="contato">
       <S.FrameDeluz src={FrameDeLuz} />
       <S.WraperEnglobaImgPessoaAndForumlario>
         <S.WraperImgPessoas>
@@ -67,10 +71,7 @@ export const SectionCadastro: React.FC = () => {
           </S.paragrafomotivador>
           <S.Formulario>
             <S.Lablenome className="reveal-right">Nome</S.Lablenome>
-            <S.InputNome
-              type="text"
-              placeholder="Digite seu nome completo."
-            />
+            <S.InputNome type="text" placeholder="Digite seu nome completo." />
             <S.LabelEmail className="reveal-right">E-mail</S.LabelEmail>
             <S.InputEmail type="email" placeholder="Digite seu email." />
             <S.LabelContato className="reveal-right">

@@ -15,7 +15,7 @@ export const SectionsPrecoParte2: React.FC = () => {
           </S.SpanAlcance>
           POR:
         </S.TextTudo>
-        {/* <CardValor/> */}
+   
       </S.WraperCardETexto>
     </S.SectionsPrecoParte2>
   );

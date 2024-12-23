@@ -5,7 +5,7 @@ import { CardPlanos } from "../../../../components/CardPlanos/CardPlanos";
 
 export const SectionPlanos: React.FC = () => {
   return (
-    <S.SectionDePlanos>
+    <S.SectionDePlanos id="plano">
       <S.ImagemFundo src={ImagemFundo} />
       <S.DivEnglobadoraDoTextoeCard>
         <S.WraperTextsmain>

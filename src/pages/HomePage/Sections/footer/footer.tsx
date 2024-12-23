@@ -4,7 +4,7 @@ import { FaInstagram, FaWhatsapp, FaLocationDot } from "react-icons/fa6";
 
 export const Footer: React.FC = () => {
   return (
-    <S.Footer>
+    <S.Footer id="horario">
       <S.WraperMain>
         <S.WraperRedesSociais>
           <S.ImgLogo src="" alt="LOGO" />
