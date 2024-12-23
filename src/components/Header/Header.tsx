@@ -1,6 +1,8 @@
 import React from "react";
 import * as S from "./styles";
 import { FaBars } from "react-icons/fa";
+import LogoFitWave from "../../../src/assets/img/Logo-Monocromatica-fitwave.png"
+
 
 interface HeaderProps {
   ShowNav: boolean;
@@ -20,9 +22,8 @@ export const Header: React.FC<HeaderProps> = ({ ShowNav, setShowNav }) => {
       <S.Figure>
         <S.LogoImage
           alt="Logo"
-          src="/_next/image?url=%2Fassets%2Fimages%2Fux-logo-cian-solid.png&amp;w=640&amp;q=75"
-          width="240"
-          height="32"
+          src={LogoFitWave}
+          width="100"
         />
       </S.Figure>
 

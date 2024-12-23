@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Footer = styled.footer`
   background-color: #141313;
   width: 100%;
-  height: 311px;
+  height: 320px;
 
   @media (max-width: 1073px) {
     height: 322px;
@@ -55,7 +55,9 @@ export const WraperRedesSociais = styled.div`
   }
 `;
 
-export const ImgLogo = styled.img``;
+export const ImgLogo = styled.img`
+  width: 100px
+`;
 
 export const DescriptionAcademy = styled.p`
   color: white;

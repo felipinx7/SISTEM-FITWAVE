@@ -1,13 +1,15 @@
 import React from "react";
 import * as S from "./styles";
 import { FaInstagram, FaWhatsapp, FaLocationDot } from "react-icons/fa6";
+import LogoFitwave from "../../../../assets/img/Logo-Monocromatica-fitwave.png"
+
 
 export const Footer: React.FC = () => {
   return (
     <S.Footer id="horario">
       <S.WraperMain>
         <S.WraperRedesSociais>
-          <S.ImgLogo src="" alt="LOGO" />
+          <S.ImgLogo src={LogoFitwave} alt="LOGO" />
           <S.DescriptionAcademy>
             A Fitwave é a academia perfeita para quem busca resultados rápidos e
             eficientes. Com uma estrutura moderna e completa, oferecemos os
